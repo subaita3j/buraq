@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /sajid/
+
+# Redirect to login.php
+RewriteRule ^$ /sajid/login.php [L]
